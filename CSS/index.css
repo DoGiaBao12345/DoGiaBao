@@ -6,16 +6,24 @@
 }
 html,body{
     width: 100%;
+    height: 100%;
 }
 body{
     display: block;
     outline: none;
 }
+.abc{
+    width: 1522px;
+    margin: auto;
+    overflow: hidden;
+}
 .phan1{
     background: url(../Hinhanh1tiet/Rectangle.jpg);
     width: 100%;
     height: 825px;
-    color: rgb(61, 37, 20); 
+    color: rgb(61, 37, 20);
+    position: relative;
+   
 }
 .phan1 h1{
     font-size: 150px;text-shadow: 4px 2px 4px rgb(255, 255, 255);
@@ -76,7 +84,6 @@ body{
     position: absolute;
     right: 520px;
     top: 550px;
-   
 }
 .phan1 .khung ._2cot.phai img._3{
     position: absolute;
