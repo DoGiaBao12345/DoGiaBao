@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body{
+        display: block;
+    
+        
+    }
+:root{
+    --font1: 'Amiri', serif;
+    --font2: 'Amiri', serif;
+}
+.banertop{
+    display: block;
+    background: url(../Hinhanh1tiet/Rectangle.jpg) top center;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+ 
+}
+.banertop ._3cot .menu{
+    display: block;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+.banertop ._3cot .menu li{
+    margin-right: 10px;
+    padding-right: 10px ;
+}
+.banertop ._3cot .menu a{
+    text-decoration: none;
+    color:black;
+}
+.banertop :before {
+    content: '';
+  
+    box-sizing: border-box;
+  
+    
+}
+.banertop ._3cot{
+    display: flex;
+    position: absolute;
+    top: 0px; left: 0;
+    width: 100%;
+}
+
+.banertop ._3cot ._1cot.cottrai a{
+    display: block;
+    font-size: 25px;
+    color: azure;
+   
+    padding-top: 600px;
+    padding: 20px 30px;
+}
+.banertop ._3cot ._1cot.cotgiua{
+    text-align: center;
+    display: block;
+}
+.banertop ._3cot ._1cot.cotgiua img{
+    height: 50px;
+    padding-top: 20px;
+} 
+.banertop ._3cot ._1cot.cotphai{
+    display: block;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 10px;
+
+}
+
+.banertop ._3cot ._1cot.cotphai a{
+    font-size: 23px;
+  
+    padding: 10px 5px;
+    display: inline-block;
+}
+.banertop ._3cot ._1cot.cotphai :before{
+display: block;
+}
+.banertop ._3cot ._1cot{
+    width: 33.33%;
+}
+
+.banertop ._text_banner{
+    display: block;
+}
+.content{
+    width: 1170px;
+    margin: auto;
+}
+._text_banner{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    color: white;
+}
+._text_banner .content h1{
+    width: 50%;
+    font-weight: 400px;
+}
+/* end css .banertop */
+.info{
+    display: flex;
+    padding: 80px 0px 50px 0px;
+    position: relative;
+    z-index: 1;
+}
+.info .right{
+    width: 35%;
+    display: block;
+}
+.info .right p{
+   line-height: 25px;
+   margin-bottom: 40px;
+}
+.info .left{
+    width: 55%;
+    text-align: left;
+    display: block;
+}
+.info .left span{
+    padding-top: 30px;
+    display: block;
+}
+/* het cc phan info */
+.warp_content{
+
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #040404;
+    
+}
+.warp_content .content h3{
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    color: white;
+
+    margin-bottom: 80px;
+}
+.warp_content .content ._2cot {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.warp_content .content ._2cot ._1cot {
+    width: calc((100%-20px) /2);
+    overflow: hidden;
+    position: relative;
+    height: 580px;
+    margin-bottom: 10px;
+}
+.warp_content .content ._2cot ._1cot img {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+.warp_content .content ._2cot ._1cot:hover img {
+    transform: scale(1.1);
+    
+}
+.warp_content .content ._2cot ._1cot .layer2 {
+    width: 585px;
+    height: 585px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 0.4s;
+}
+.warp_content .content ._2cot ._1cot:hover .layer2 {
+    opacity: 0.5;
+}
+.warp_content .content ._2cot ._1cot .chuto {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    font-weight: bold;
+    top: 250px;
+    left: 40px;
+    opacity: 0;
+    transition: 0.4;
+}
+.warp_content .content ._2cot ._1cot .chunho {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    top: 290px;
+    left: 40px;
+    opacity: 0;
+    transition: 0.4;
+}
+.warp_content .content ._2cot ._1cot:hover .chuto {
+    opacity: 1;
+    top: 230px;
+}
+.warp_content .content ._2cot ._1cot:hover .chunho {
+    opacity: 1;
+    top: 270px;
+}
+.warp_content .content a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.warp_content .content a:before {
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -10px;
+    transition: 0.3s;
+}
+.warp_content .content a:hover:before {
+    left: -7px;
+}
+/* het 2 cot */
+.warp_content2{
+    display: block;
+    width: 100%;
+}
+.warp_content2 .content ._6cot {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-top: 80px;
+}
+.warp_content2 .content ._6cot ._1cot{
+    width: 16.5%;
+    margin: 0 30px;
+
+}
+.warp_content2 .content ._6cot ._1cot img{
+    height: 110px;
+    opacity: 0.5;
+
+}
+.warp_content2 .content ._6cot ._1cot:hover img{
+    opacity: 1;
+}
+.warp_content2 .content ._3cot{
+    display: flex;
+    margin-top:30px;
+    padding-bottom: 40px;
+}
+.warp_content2 .content ._3cot h2{
+    width: 25%;
+    font-size: 30px;
+}
+.warp_content2 .content ._3cot p{
+    width: 50%;
+    
+}
+.warp_content2 .content ._3cot a{
+    width: 25%;
+    text-align: right;
+    text-decoration: none;
+}
+.warp_content2 .content ._3cot a:before {
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -10px;
+    transition: 0.3s;
+}
+.warp_content2 .content ._3cot a:hover:before {
+    left: -7px;
+}
+footer{
+    padding-top: 40px;
+    background-color: black;
+    height: 100px;
+    color: #fff;  
+    padding: 40px 0;  
+}
+footer ._2cotfooter{
+    display: flex;
+    
+}
+footer ._2cotfooter .trai {text-align: left; width: 50%;}
+footer ._2cotfooter span a{text-decoration: blue;}
+footer ._2cotfooter .phai{text-align: right; width: 50%;}
+footer ._2cotfooter p .fa{color: chartreuse;}

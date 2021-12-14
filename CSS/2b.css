@@ -1,0 +1,14 @@
+div.bo{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+.con1{
+    width: 290px;
+}
+.con2{
+    width: 290px;
+}
+.con3{
+    width: 290px;
+}

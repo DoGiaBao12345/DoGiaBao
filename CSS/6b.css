@@ -1,0 +1,18 @@
+ul.menuNgang{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    background-color: #ff69b4;
+}
+ul.menuNgang li{
+    margin-right: 10px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+  
+}
+ul.menuNgang li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+   
+}

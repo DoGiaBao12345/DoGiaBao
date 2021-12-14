@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+html,body{
+    width: 100%;
+}
+body{
+    display: block;
+    outline: none;
+}
+.phan1{
+    background: url(../Hinhanh1tiet/Rectangle.jpg);
+    width: 100%;
+    height: 825px;
+    color: rgb(61, 37, 20); 
+}
+.phan1 h1{
+    font-size: 150px;text-shadow: 4px 2px 4px rgb(255, 255, 255);
+}
+.phan1 h2{
+    font-size: 60px;text-shadow: 4px 2px 4px rgb(255, 255, 255)
+}
+
+.phan1 .khung{
+    display: inline-flex;
+    width: 100%;
+}
+.phan1 .khung ._2cot.trai{
+    width: 50%;
+    margin-left: 118px;
+    margin-top: 118px;
+}
+.phan1 .khung ._2cot.trai h3{
+    
+    margin-top: 60px;
+}
+.phan1 .khung ._2cot.phai{
+    margin-top: 22px;
+    width: 50%;
+}
+.phan1 .khung ._2cot.phai .menu{
+    margin-top: 11px;
+}
+.phan1 .khung ._2cot.phai .xe{
+    margin-left: 350px;
+}
+.phan1 .khung ._2cot.phai .menu{
+    margin-left: 300px;
+}
+.phan1 .khung ._2cot.phai .menu ul.menuNgang{
+    list-style: none;
+    display: inline-flex;
+    
+    margin: 0 auto;
+}
+.phan1 .khung ._2cot.phai .menu .menuNgang a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(61, 37, 20); 
+    display: block;
+    padding: 18px;
+    transition: 0.4s;
+}
+.phan1 .khung ._2cot.phai .menu .menuNgang a:hover{
+    background-color: aquamarine
+}
+.phan1 .khung ._2cot.phai img._1{
+    margin-top: 22px;
+   
+}
+.phan1 .khung ._2cot.phai img._2{
+    position: absolute;
+    right: 520px;
+    top: 550px;
+   
+}
+.phan1 .khung ._2cot.phai img._3{
+    position: absolute;
+    right: 560px;
+    top: 590px;
+   
+}
+/* het phan 1 */
+.phan2 ._2cot{
+    display: flex;
+    width: 85%;
+    padding-top: 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.phan2 ._2cot ._1cot{
+   
+    padding-left: 160px;
+    width: 50%;
+    display: block;
+}
+.phan2 ._2cot ._1cot.trai{
+    color: white;
+    position: relative;
+}
+.phan2 ._2cot ._1cot.phai{
+    color: white;
+    
+}
+.phan2 ._2cot ._1cot._1cot.phai .tren{
+   
+    position: relative;    
+    display: block;
+    
+}
+.phan2 ._2cot ._1cot._1cot.phai .duoi{
+    display: block;
+    padding-top: 25px;
+   
+ }
+.phan2 ._2cot ._1cot.trai img{
+    position: absolute;
+}
+.phan2 ._2cot ._1cot.trai .chutren{
+    font-size: 15px;
+    top: 40px;
+    margin-left: 30px;
+    position: absolute;
+    opacity: 1;
+    transition: 0.4;
+}
+.phan2 ._2cot ._1cot.trai .chuduoi{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 30px;
+    top: 55px;
+    opacity: 1;
+    transition: 0.4;
+   
+}
+
+.phan2 ._2cot ._1cot.phai .tren img{
+    position: absolute;
+  
+}
+.phan2 ._2cot ._1cot.phai .tren .chutren{
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    margin-left: 30px;
+  
+}
+.phan2 ._2cot ._1cot.phai .tren .chuduoi{
+    position: absolute;
+    top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.phan2 ._2cot ._1cot.phai .duoi .chutren{
+    position: absolute;
+    top: 250px;
+    font-size: 15px;
+}
+
+.phan2 ._2cot ._1cot.phai .duoi .chuduoi{
+    position: absolute;
+    top: 270px;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+.phan2 ._2cot ._1cot.phai .duoi img{
+    margin-top: 200px;
+    position: absolute ;
+    
+}
+/*  het phan 2 */
+.phan3 .phiatren{
+    padding-top: 450px;
+    text-align: center;
+}
+.phan3 .phiatren .giua{
+    margin-top: 20px;
+}
+.phan3 .ogiua{
+        display: block;
+        top: 0px; left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 30px;
+
+}
+.phan3 .ogiua .hinhburger {
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.phan3 .ogiua .hinhburger ._3cot{
+    width: 33%;
+    text-align: center;
+}
+.phan3 .ogiua .hinhbong {
+    display: flex;
+    justify-content: space-between;
+}
+.phan3 .ogiua .hinhbong ._3cot{
+    width: 33%;
+    text-align: center;
+}
+.phan3 .ogiua .chu{
+    display: flex;
+    justify-content: space-between;
+}
+.phan3 .ogiua .chu ._3cot{
+    width: 33%;
+    text-align: center;
+}
+.phan3 .ogiua .chu2 {
+    display: flex;
+    justify-content: space-between;
+}
+.phan3 .ogiua .chu2 ._3cot{
+    width: 33%;
+    text-align: center;
+}
+
+/*  het phan 3 */
+
+.phan4{
+    background: url(../Hinhanh1tiet/hinh4.png) center;
+    display: block;
+    height: 577px;
+    width: 1379px;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px ;
+    position: relative;
+}
+.phan4 ._2ben{
+    display: flex;
+   
+    position: relative;
+    z-index: 1;
+
+}
+.phan4 ._2ben .trai{
+
+    padding-left: 100px;
+    padding-top: 100px;
+    display: block;
+
+}
+.phan4 ._2ben .phai{
+    padding-left: 150px;
+    padding-top: 40px;
+    display: block;
+
+}
+.phan4 ._2ben .phai .thumbal img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.phan4 ._2ben .phai .thumbal:hover img{
+   background-color: yellow;
+}
+/* het phan 4 */
+.phan5{
+    background: url(../Hinhanh1tiet/hinhphan5.png)  ;   
+    width: 100%;
+    height: 730px;
+    text-align: center;
+}
+.phan5 .khung{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.phan5 .content{
+   padding-top: 135px;
+}
+.phan5 .khung ._2cot{
+    top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.phan5 .khung ._2cot.trai{
+    left: 170px;
+    width: 50%;
+}
+.phan5 .khung ._2cot.phai{
+    right: 170px;
+    width: 50%;
+}
+/* het phan 5 */
+.phan6{
+    background: url(../Hinhanh1tiet/hinhphan6.png) ;
+    width: 1326px;
+    height: 525px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.phan6 .khung{
+    display: flex;
+}
+.phan6 .khung ._2cot.trai{
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 50%;
+}
+.phan6 .khung ._2cot.phai{
+    margin-top: 230px;
+    margin-left: 400px;
+    width: 50%;
+}
+.phan6 .khung ._2cot .menu{
+    margin-top: 170px;
+    margin-left: 230px;
+}
+.phan6 .khung ._2cot .menu ul.menuNgang{
+    list-style: none;
+    display: flex;
+}
+.phan6 .khung ._2cot .menu img{
+    display: block;
+    padding: 6px;
+}
+@media screen and (max-width: 1464px)
+{
+
+    body{
+        width: 100%;
+    }
+    .phan1 .khung{
+        width: 100%;
+     
+    }
+    .phan1 .khung ._2cot{
+       
+        width: 100%;
+    }
+    .phan1 .khung ._2cot.trai{
+        position: absolute;
+        text-align: left;
+        
+    }
+    .phan1 .khung ._2cot.phai{
+        text-align: right;
+        position: absolute;
+        width: 100%;
+        
+    }
+
+}
+@media screen and (max-width: 1401px)
+{
+    .phan1 .khung ._2cot.trai{
+        
+    }
+}

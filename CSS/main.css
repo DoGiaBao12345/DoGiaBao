@@ -1,0 +1,30 @@
+/* External */
+#first {
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.second{
+    color: blue;        
+    font-size: 50px;
+}   
+hr{
+    width: 500px;
+}
+h2{
+    color: rgb(red, green, blue);
+    margin-left: 500px;
+}
+h3{
+    width: 550px;
+    margin-left: 500px;
+}
+.third{
+    color: rgb(0, 255, 98);        
+    font-size: 50px;
+}
+pre{
+    font-size: 50px;
+    color: rosybrown;
+    font-family: 'Times New Roman', Times, serif;
+}

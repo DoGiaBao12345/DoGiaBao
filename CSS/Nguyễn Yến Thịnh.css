@@ -1,0 +1,75 @@
+div.menu{
+    display: flex;
+}
+h2 a.benphai{
+    font-size: 15px;
+    margin-left: 900px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+ul.menuNgang{
+    list-style: none;
+    display: flex;
+    margin: 0 ;
+}
+.menuNgang a{
+font-family: Segoe UI;
+font-size: 20px;
+display: block;
+
+}
+
+h2{
+    font-size: 15px;    
+}
+div.all{
+    display: flex;
+}
+.block1{
+    display: block;
+}
+.block2{
+    display: block;
+}
+.block3{
+    display: block;
+}
+.block4{
+    display: block;
+}
+.block5{
+    display: block;
+}
+.block6{
+    display: block;
+}
+.block1 ul{
+    list-style: none;
+}
+.block2 ul{
+    margin-left: 50px;
+    list-style: none;
+}
+.block3 ul{
+    margin-left: 50px;
+    list-style: none;
+}
+.block4 ul{
+    margin-left: 50px;
+    list-style: none;
+}
+.block5 ul{
+    margin-left: 50px;
+    list-style: none;
+}
+.block6 ul{
+    margin-left: 50px;
+    list-style: none;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;  
+}
+hr{
+    margin: 0;
+}
