@@ -17,6 +17,12 @@ body{
     margin: auto;
     overflow: hidden;
 }
+.abc .icon img{
+    position: fixed;
+    width: 121px ;
+    height: 121px;
+    top: 500px;      
+}
 .phan1{
     background: url(../Hinhanh1tiet/Rectangle.jpg);
     width: 100%;
